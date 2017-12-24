@@ -1,0 +1,3 @@
+com\web\pay\pojo\merchant\MerchantDetail.class
+com\web\pay\pojo\merchant\Merchant.class
+com\web\pay\pojo\email\Mail.class

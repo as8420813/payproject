@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+validator.Checked=src/main/resources/spring/spring-mvc.xml,target,src/main/webapp,src/main/resources/spring/springmvc.xml
+validator.Unchecked=

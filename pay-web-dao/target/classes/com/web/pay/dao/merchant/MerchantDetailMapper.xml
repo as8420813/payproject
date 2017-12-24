@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.web.pay.dao.merchant.MerchantDetailMapper">
+
+	<sql id="table"> TBL_MERCHANT_DETAIL </sql>
+
+	<resultMap id="beanMap" type="com.web.pay.pojo.merchant.MerchantDetail">
+		<id     property="merchantId" column="MERCHANTID" />
+		<result property="email" column="EMAIL" />
+		<result property="isbindemail" column="ISBINDEMAIL" />
+		<result property="adress" column="ADRESS" />
+		<result property="telephone" column="TELEPHONE" />
+		<result property="bankcardnumber" column="BANKCARDNUMBER" />
+		<result property="accountmoney" column="ACCOUNTMONEY" />
+		<result property="idcardno" column="IDCARDNO" />
+		<result property="lastlogintime" column="LASTLOGINTIME" />
+		<result property="paypassword" column="PAYPASSWORD" />
+		<result property="integration" column="INTEGRATION" />
+	
+	</resultMap>
+    
+	
+</mapper>

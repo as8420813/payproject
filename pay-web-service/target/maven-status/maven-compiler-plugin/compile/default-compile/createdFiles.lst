@@ -1,0 +1,3 @@
+com\pay\service\merchantdetail\MerchantDetailServiceImpl.class
+com\pay\service\merchant\MerchantRegisterServiceImpl.class
+com\pay\service\merchant\MerchantLoginServiceImpl.class
